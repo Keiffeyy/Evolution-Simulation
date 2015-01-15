@@ -1,0 +1,26 @@
+#BlueJ class context
+comment0.params=maxValue\ genericBarX\ genericBarY\ genericBarHeight\ genericBarWidth\ r\ g\ b
+comment0.target=GenericBar(int,\ int,\ int,\ int,\ int,\ int,\ int,\ int)
+comment0.text=\r\n\ Creates\ the\ bar\ with\ a\ certain\ height,\ width,\ location,\ and\ color.\r\n\ @param\ maxValue\ the\ upper\ limit\ of\ the\ bar.\r\n\ @param\ genericBarX\ the\ x\ coordinate\ of\ the\ centre\ of\ the\ bar.\r\n\ @param\ genericBarY\ the\ y\ coordinate\ of\ the\ centre\ of\ the\ bar.\r\n\ @param\ genericBarHeight\ the\ height\ of\ the\ bar.\r\n\ @param\ genericBarWidth\ the\ width\ of\ the\ bar.\r\n\ @param\ r\ the\ color\ code\ for\ r\ (the\ "redness"\ of\ the\ color).\ Accepts\ a\ value\ from\ 0\ to\ 255.\r\n\ @param\ g\ the\ color\ code\ for\ g\ (the\ "greeness"\ of\ the\ color).\ Accepts\ a\ value\ from\ 0\ to\ 255.\r\n\ @param\ b\ the\ color\ code\ for\ b\ (the\ "blueness"\ of\ the\ color).\ Accepts\ a\ value\ from\ 0\ to\ 255.\r\n\ \r\n
+comment1.params=maxValue\ target\ genericBarHeight\ genericBarWidth\ r\ g\ b\ offset
+comment1.target=GenericBar(int,\ Prey,\ int,\ int,\ int,\ int,\ int,\ int)
+comment1.text=\r\n\ Creates\ a\ bar\ with\ a\ certain\ height,\ width\ and\ color\ that\ follows\ a\ certain\ actor.\r\n\ @param\ maxValue\ the\ upper\ limit\ of\ the\ bar.\r\n\ @param\ target\ the\ Actor\ that\ you\ want\ the\ bar\ to\ follow.\r\n\ @param\ genericBarHeight\ the\ height\ of\ the\ bar.\r\n\ @param\ genericBarWidth\ the\ width\ of\ the\ bar.\r\n\ @param\ r\ the\ color\ code\ for\ r\ (the\ "redness"\ of\ the\ color).\ Accepts\ a\ value\ from\ 0\ to\ 255.\r\n\ @param\ g\ the\ color\ code\ for\ g\ (the\ "greeness"\ of\ the\ color).\ Accepts\ a\ value\ from\ 0\ to\ 255.\r\n\ @param\ b\ the\ color\ code\ for\ b\ (the\ "blueness"\ of\ the\ color).\ Accepts\ a\ value\ from\ 0\ to\ 255.\r\n
+comment2.params=
+comment2.target=void\ act()
+comment2.text=\r\n\ Keeps\ the\ bar\ in\ its\ specified\ location,\ or\ followng\ a\ certain\ actor.\r\n
+comment3.params=
+comment3.target=void\ removeThis()
+comment3.text=\r\n\ Removes\ this\ bar\ from\ the\ world.\r\n
+comment4.params=rEmpty\ gEmpty\ bEmpty
+comment4.target=void\ setEmptyColor(int,\ int,\ int)
+comment4.text=\r\nSets\ the\ color\ that\ the\ bar\ will\ be\ when\ it\ is\ empty.\ Used\ to\ set\ the\ lower\ limit\ for\ the\ gradient\ option.\r\n@param\ rEmpty\ the\ color\ code\ for\ r\ when\ the\ bar\ is\ empty\ (the\ "redness"\ of\ the\ color).\ Accepts\ a\ value\ from\ 0\ to\ 255.\r\n@param\ gEmpty\ the\ color\ code\ for\ g\ when\ the\ bar\ is\ empty\ (the\ "greeness"\ of\ the\ color).\ Accepts\ a\ value\ from\ 0\ to\ 255.\r\n@param\ bEmpty\ the\ color\ code\ for\ b\ when\ the\ bar\ is\ empty\ (the\ "blueness"\ of\ the\ color).\ Accepts\ a\ value\ from\ 0\ to\ 255.\r\n
+comment5.params=
+comment5.target=void\ setGradientColor()
+comment5.text=\r\n\ Sets\ the\ color\ of\ the\ bar\ based\ on\ the\ gradient,\ using\ the\ percentage\ of\ the\ bar\ that\ is\ filled\ to\ determine\ how\ far\ the\ gradient\ is.\r\n
+comment6.params=r\ g\ b
+comment6.target=void\ update(int,\ int,\ int)
+comment6.text=\r\n\ Changes\ the\ color\ of\ the\ bar.\r\n\ @param\ r\ the\ color\ code\ for\ r\ (the\ "redness"\ of\ the\ color).\ Accepts\ a\ value\ from\ 0\ to\ 255.\r\n\ @param\ g\ the\ color\ code\ for\ g\ (the\ "greeness"\ of\ the\ color).\ Accepts\ a\ value\ from\ 0\ to\ 255.\r\n\ @param\ b\ the\ color\ code\ for\ b\ (the\ "blueness"\ of\ the\ color).\ Accepts\ a\ value\ from\ 0\ to\ 255.\r\n
+comment7.params=updatedValue
+comment7.target=boolean\ update(int)
+comment7.text=\r\n\ Updates\ the\ Bar\ with\ the\ new\ current\ value,\ and\ displays\ it\ as\ a\ percentage\ of\ the\ bar\ that\ is\ filled.\r\n\ @param\ updatedValue\ the\ current\ value\ of\ the\ bar.\r\n\ @return\ boolean\ returns\ true\ if\ currentValue\ is\ equal\ to\ the\ maxValue\ (when\ the\ bar\ is\ full),\ returns\ false\ if\ not.\r\n
+numComments=8

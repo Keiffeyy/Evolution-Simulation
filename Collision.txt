@@ -1,0 +1,55 @@
+import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
+import java.lang.*;
+/**
+ * Write a description of class Organism here.
+ * 
+ * @author (your name) 
+ * @version (a version number or a date)
+ */
+public class Organism extends Actor
+{
+
+    private int positionX;
+    private int positionY;
+    /**
+     * Act - do whatever the Organism wants to do. This method is called whenever
+     * the 'Act' or 'Run' button gets pressed in the environment.
+     */
+    public void act() 
+    {
+        
+    }    
+    
+    protected void collisionDetection(Actor a)
+    {
+        positionY = this.getY();
+        //Collision detection for the right side a
+        Actor b=(Actor)getOneObjectAtOffset(-this.getImage().getWidth()/2 ,0, a.getClass());
+        if (b!=null) {
+            positionX = b.getX() + b.getImage().getWidth()/2 + this.getImage().getWidth()/2;
+            this.setLocation (positionX, (int)positionY );
+        }
+        
+        //Collision detection for left side of a
+         b=(Actor)getOneObjectAtOffset(this.getImage().getWidth()/2 ,0, a.getClass());
+        if (b!=null) {
+            positionX = b.getX() - b.getImage().getWidth()/2 - this.getImage().getWidth()/2;
+            this.setLocation (positionX, (int)positionY);
+        }
+        
+        //Bottom of Actor a
+         b=(Actor)getOneObjectAtOffset(0 , -this.getImage().getHeight()/2, a.getClass());
+        if (b!=null) {
+            positionY = b.getY()+ b.getImage().getHeight()/2 + this.getImage().getHeight()/2;
+            this.setLocation (this.getX(), (int)positionY);
+        }
+        
+        //Top of Actor a
+          b=(Actor)getOneObjectAtOffset(0 , this.getImage().getHeight()/2, a.getClass());
+        if (b!=null) {
+            positionY = b.getY()- b.getImage().getHeight()/2 - this.getImage().getHeight()/2;
+            this.setLocation (this.getX(), (int)positionY);
+        }
+            
+    }
+}

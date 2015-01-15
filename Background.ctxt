@@ -1,0 +1,14 @@
+#BlueJ class context
+comment0.params=world
+comment0.target=Background(EvolutionWorld)
+comment0.text=\r\n\ Creates\ an\ instacne\ of\ background.\r\n\ \r\n
+comment1.params=
+comment1.target=void\ act()
+comment1.text=\r\n\ runs\ every\ greenfoot\ frame,\ setting\ the\ image's\ transparency.\r\n
+comment2.params=
+comment2.target=void\ brighten()
+comment2.text=\r\n\ Makes\ this\ more\ transparent.\r\n
+comment3.params=
+comment3.target=void\ darken()
+comment3.text=\r\n\ Makes\ this\ less\ transparent.\r\n
+numComments=4

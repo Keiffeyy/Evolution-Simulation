@@ -1,0 +1,23 @@
+#BlueJ class context
+comment0.params=parent
+comment0.target=Fruit(Tree)
+comment0.text=\r\n\ @param\ \ \ Tree\ \ \ \ parent\ \ A\ reference\ for\ the\ replication\ of\ a\ parent\ with\ all\ the\ stats\ required\ for\ spawning\ another\ tree\ from\ this\ fruit\r\n
+comment1.params=
+comment1.target=boolean\ getEaten()
+comment1.text=\r\n\ @return\ \ boolean\ Whether\ the\ fruit\ has\ been\ eaten\ or\ not\r\n
+comment2.params=
+comment2.target=void\ setAsEaten()
+comment2.text=\r\n\ Sets\ the\ value\ of\ eaten\ to\ true\r\n
+comment3.params=eater
+comment3.target=double[]\ digest(Organism)
+comment3.text=\r\n\ Ensures\ that\ a\ fruit,\ if\ eaten,\ follows\ whoever\ ate\ it,\ and\ provides\ them\ food\ and\ water\r\n\ \r\n\ @param\ \ \ Organism\ \ \ \ eater\ \ \ The\ organism\ which\ has\ consumed\ this\ fruit\r\n\ @return\ \ double[]\ \ \ \ Array\ containing\ [0]\ amount\ of\ hunger\ satiated,\ [1]\ amount\ of\ thirst\ satiated\r\n
+comment4.params=
+comment4.target=void\ rot()
+comment4.text=\r\n\ Depletes\ values\ of\ nutrition\ and\ water\ every\ turn\ that\ the\ fruit\ is\ not\ eaten\r\n
+comment5.params=
+comment5.target=void\ sprout()
+comment5.text=\r\n\ Creates\ a\ brand\ new\ tree\ in\ the\ spot\ that\ this\ fruit\ disappears,\ 20%\ of\ the\ time\r\n
+comment6.params=
+comment6.target=void\ act()
+comment6.text=\r\n\ Rot\ the\ fruit\ if\ it\ is\ not\ being\ eaten\r\n
+numComments=7

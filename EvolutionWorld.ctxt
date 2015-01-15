@@ -1,0 +1,27 @@
+#BlueJ class context
+comment0.params=
+comment0.target=EvolutionWorld()
+comment0.text=\r\n\ Default\ constructor\ for\ objects\ of\ class\ EvolutionWorld.\r\n\ \r\n
+comment1.params=
+comment1.target=int\ getLengthOfDay()
+comment1.text=\r\n\ @return\ \ int\ The\ length\ of\ a\ day\ in\ turns\r\n
+comment2.params=
+comment2.target=int\ getNumberOfPrey()
+comment2.text=\r\n\ @return\ \ int\ The\ number\ of\ prey\ in\ the\ world\r\n
+comment3.params=
+comment3.target=double\ getTimeOfDay()
+comment3.text=\r\n\ @return\ \ double\ \ The\ time\ of\ day\ as\ a\ decimal,\ where\ 0\ \=\ Start\ of\ day,\ while\ 1\ \=\ End\ of\ day\r\n
+comment4.params=
+comment4.target=int\ getHour()
+comment4.text=\r\n\ @return\ \ double\ \ The\ time\ of\ day\ in\ turns,\ as\ an\ integer\r\n
+comment5.params=
+comment5.target=void\ initiateDisaster()
+comment5.text=\r\n\ Chooses\ a\ random\ disaster\ to\ run,\ and\ runs\ appropriate\ commands\ in\ all\ grids\ affected\r\n
+comment6.params=
+comment6.target=void\ spawnActors()
+comment7.params=
+comment7.target=void\ countFaunaFlora()
+comment8.params=
+comment8.target=void\ act()
+comment8.text=\r\n\ Moves\ the\ day\ along,\ resets\ statistics,\ and\ initiates\ disasters\ (weather\ phenomena)\ at\ random\r\n
+numComments=9

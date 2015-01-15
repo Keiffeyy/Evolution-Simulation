@@ -1,0 +1,19 @@
+#BlueJ class context
+comment0.params=max\ currentAmount\ imageSet\ w
+comment0.target=ValueChoose(int,\ int,\ int,\ EvolutionWorld)
+comment0.text=\r\n\ Creates\ a\ counter\ with\ two\ clickable\ arrows\ on\ the\ top\ and\ bottom.\r\n\ \r\n\ @param\ int\ max\ The\ highest\ number\ that\ the\ counter\ can\ go\ up\ to.\r\n\ @param\ int\ currentAmount\ The\ 'default'\ numbers\ that\ the\ counter\ starts\ at.\r\n\ @param\ int\ imageSet\ The\ number\ corresponding\ to\ the\ images\ as\ defined\ by\ pictureDecode().\r\n\ @param\ EvolutionWorld\ w\ The\ world\ that\ the\ counter\ will\ reside\ in.\r\n\ \r\n
+comment1.params=w
+comment1.target=void\ addedToWorld(greenfoot.World)
+comment2.params=
+comment2.target=void\ act()
+comment2.text=\r\n\ Act\ -\ do\ whatever\ the\ ValueChoose\ wants\ to\ do.\ This\ method\ is\ called\ whenever\r\n\ the\ 'Act'\ or\ 'Run'\ button\ gets\ pressed\ in\ the\ environment.\r\n
+comment3.params=
+comment3.target=void\ update()
+comment4.params=image
+comment4.target=java.lang.String\ pictureDecode(int)
+comment5.params=
+comment5.target=void\ checkQuantity()
+comment6.params=
+comment6.target=int\ getQuantity()
+comment6.text=\r\n\ Returns\ the\ value\ of\ the\ counter.\r\n\r\n@returns\ int\ The\ current\ value\ as\ shown\ on\ the\ counter.\r\n
+numComments=7

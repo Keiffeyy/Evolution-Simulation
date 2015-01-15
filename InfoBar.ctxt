@@ -1,0 +1,11 @@
+#BlueJ class context
+comment0.params=
+comment0.target=InfoBar()
+comment0.text=\r\n\ Creates\ an\ instance\ of\ InfoBar.\r\n
+comment1.params=trees\ bushes\ prey\ predators
+comment1.target=void\ update(int,\ int,\ int,\ int)
+comment1.text=\r\n\ updates\ the\ values\ to\ be\ outputted\ onto\ the\ screen.\r\n\ \r\n\ @param\ trees\ The\ number\ of\ trees.\r\n\ @param\ bushes\ The\ number\ of\ bushes.\r\n\ @param\ prey\ The\ number\ of\ prey.\r\n\ @param\ predators\ The\ number\ of\ predators.\r\n
+comment2.params=
+comment2.target=void\ update()
+comment2.text=\r\n\ Updates\ the\ bar\ with\ current\ values.\r\n
+numComments=3

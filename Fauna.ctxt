@@ -1,0 +1,17 @@
+#BlueJ class context
+comment0.params=female\ male\ mutationRateF\ mutationRateM
+comment0.target=int\ getBabyValue(int,\ int,\ int,\ int)
+comment0.text=\r\n\ Averages\ the\ values\ of\ the\ male\ and\ female,\ and\ mutates\ it\ slightly\ based\ on\ mutation\ rates\r\n\ \r\n\ @param\ female\ The\ value\ of\ the\ female\ that\ you\ are\ trying\ to\ get\ for\ the\ baby\r\n\ @param\ male\ The\ value\ of\ them\ ale\ that\ you\ are\ trying\ to\ get\ for\ the\ baby\r\n\ @param\ mutationRateF\ The\ mutation\ rate\ of\ the\ female\r\n\ @param\ mutationRateM\ The\ mutation\ rate\ of\ the\ male\r\n\ \r\n
+comment1.params=a\ b
+comment1.target=int\ angleBetweenObjects(Organism,\ Organism)
+comment1.text=\r\n\ Finds\ the\ angle\ between\ two\ objects.\ Organism\ a\ is\ the\ organism\ that\ you\ are\ basing\ the\ angle\ off\ of\ (the\ "Origin")\r\n\ \r\n@param\ a\ the\ first\ organism,\ angle\ will\ be\ based\ off\ this\ one.\r\n@param\ b\ the\ 2nd\ organism.\r\n
+comment2.params=a\ b
+comment2.target=int\ distanceBetweenObjects(Organism,\ Organism)
+comment2.text=\r\n\ finds\ the\ distance\ between\ two\ objects.\r\n\ \r\n\ @param\ a\ The\ first\ organism.\r\n\ @param\ b\ The\ 2nd\ organism.\ \r\n
+comment3.params=subtract
+comment3.target=void\ subtractSpeed(int)
+comment4.params=subtract
+comment4.target=void\ subtractHunger(int)
+comment5.params=subtract
+comment5.target=void\ subtractThirst(int)
+numComments=6

@@ -1,0 +1,8 @@
+#BlueJ class context
+comment0.params=r\ g\ b\ target
+comment0.target=Colour(int,\ int,\ int,\ Fauna)
+comment0.text=\r\n\ Creates\ a\ new\ instance\ of\ Colour.\r\n\r\n@param\ r\ the\ r\ value\ of\ the\ RGB\ code.\r\n@param\ g\ the\ g\ value\ of\ the\ RGB\ code.\r\n@param\ b\ the\ b\ value\ of\ the\ RGB\ code.\r\n@param\ target\ the\ Fauna\ that\ this\ follows.\r\n
+comment1.params=
+comment1.target=void\ act()
+comment1.text=\r\n\ runs\ every\ greenfoot\ frame.\ Makes\ this\ follow\ its\ target.\r\n
+numComments=2

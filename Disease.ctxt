@@ -1,0 +1,19 @@
+#BlueJ class context
+comment0.params=a\ isPoisonous\ strength\ spreadDistance
+comment0.target=Disease(Fauna,\ boolean,\ int,\ int)
+comment1.params=
+comment1.target=void\ act()
+comment2.params=
+comment2.target=java.util.List\ areaCheck()
+comment2.text=\r\n\ Checks\ the\ surrounding\ of\ the\ host\ for\ other\ fauna\ that\ are\ close\ by.\r\n
+comment3.params=
+comment3.target=void\ spread()
+comment4.params=
+comment4.target=void\ sapTarget()
+comment5.params=
+comment5.target=void\ isActive()
+comment6.params=
+comment6.target=greenfoot.Actor\ getTarget()
+comment7.params=
+comment7.target=void\ cure()
+numComments=8
